@@ -1,0 +1,12 @@
+concept id	representation id	en
+FMA61834	BP6591	putamen
+FMA61906	BP5676	middle temporal gyrus
+FMA61907	BP5678	inferior temporal gyrus
+FMA62004	BP5693	medulla oblongata
+FMA62007	BP6495	thalamus
+FMA62493	BP5509	hippocampus
+FMA67325	BP5666	occipital lobe
+FMA67944	BP5696	cerebellum
+FMA70701	BP5685	anterior part of superior temporal gyrus
+FMA70703	BP5684	posterior part of superior temporal gyrus
+FMA241998	BP6577	cerebral white matter

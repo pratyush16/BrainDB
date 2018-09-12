@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Brain DB</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+        <script src="lib/three.min.js"></script>
+        <script src="lib/signals.min.js"></script>
+        <script src="main.js"></script>
+        <script src="TabsControl.js"></script>
+        <script src="Viewport.js"></script>
+        <script src="Ontology.js"></script>
+    </head>
+	<body onload="main()">
+        <div id="tabs">
+            <ul>
+                <li><a href="#loaded_tab">Loaded</a></li>
+                <li><a href="#search_tab">Search</a></li>
+                <li><a href="#help_tab">Help</a></li>
+            </ul>
+            <div id="loaded_tab">
+                <div class="btn-group">
+                        <button id = "CBC">Cerebellar Cortex</button>
+                        <button id = "Mdla">Medulla</button>
+                        <button id = "FrC">Frontal Cortex</button>
+                        <button id = "Pmen">Putamen</button>
+                        <button id = "TC">Temporal Cortex</button>
+                        <button id = "Tmus">Thalamus</button>
+                        <button id = "Hippo">Hippocampus</button>
+                        <button id = "OccC">Occipital Cortex</button>
+                        <button id = "SubNig">Substantia Nigra</button>
+                        <button id = "SWM">Subcortical White Matter</button>
+                </div>
+            </div>
+            <div id="search_tab">
+                <div id="search_grp">
+                    <button id="search_btn" tabindex="1">Search</button>
+                    <div id="search_div">
+                        <input id="search_text" class="ui-button ui-corner-all" type="text" tabindex="1" autocomplete="off">
+                    </div>
+                </div>
+                <ul id="search_result"></ul>
+            </div>
+            <div id="help_tab">
+                <table>
+                    <tr><td>,</td><td> - </td><td>jump to loaded tab</td></tr>
+                    <tr><td>.</td><td> - </td><td>jump to search tab</td></tr>
+                    <tr><td>Esc/Active tab click</td><td> - </td><td>collapse tabs</td></tr>
+                    <tr><td colspan="3">While focused in the search input field:</td></tr>
+                    <tr><td>Enter</td><td> - </td><td>search for substring</td></tr>
+                    <tr><td>Down</td><td> - </td><td>next</td></tr>
+                    <tr><td>Up</td><td> - </td><td>previous</td></tr>
+                </table>
+            </div>
+        </div>
+        <div id="viewport"></div>
+        <footer>
+            <span id="concept_id">
+            </span>
+            <span id="copyright">
+                Parts based on models from: "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution-Share Alike 2.1 Japan"
+            </span>
+        </footer>
+    </body>
+</html>

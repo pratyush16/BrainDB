@@ -1,0 +1,5 @@
+concept id	representation id	en
+FMA50801	BP6687	brain
+FMA242207	BP10512	cortex of right frontal lobe
+FMA242209	BP10525	cortex of left frontal lobe
+FMA67944	BP5696	cerebellum

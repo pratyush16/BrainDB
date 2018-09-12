@@ -1,0 +1,223 @@
+body
+{
+    font-family:      arial, sans-serif;
+    font-size:        12px;
+    background-color: #AAA;
+    margin:           0;
+    overflow:         hidden;
+    margin:           0;
+    padding:          0;
+}
+
+#viewport
+{
+    position: absolute;
+    top:      0;
+    left:     0;
+    right:    0px;
+    bottom:   16px;
+}
+
+#controls
+{
+    width:    100%;
+}
+
+#pathway_play
+{
+    height: 100%;
+    width:  100%;
+}
+
+div.load-type
+{
+    margin-top:    0.5em;
+    margin-bottom: 0.5em;
+}
+
+button
+{
+    white-space: nowrap;
+}
+
+.btn-group button {
+    background-color: rgb(148, 148, 148); 
+    border: 1px solid rgb(120, 120, 120); 
+    color: black; 
+    padding: 10px; 
+    cursor: pointer; 
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; 
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #3d3d3d;
+}
+
+.text3d
+{
+    font-size:     12px;
+    position:      absolute;
+    padding:       3px;
+    border:        1px solid;
+    border-radius: 0px 7px 7px 7px;
+    z-index:       1;
+}
+
+.text3dX
+{
+    font-size:     12px;
+    position:      absolute;
+    padding:       3px;
+    border:        1px solid;
+    border-radius: 7px 7px 0px 7px;
+    z-index:       1;
+}
+
+.text3dL
+{
+    font-size:     12px;
+    position:      absolute;
+    padding:       3px;
+    border:        1px solid;
+    border-radius: 7px 0px 7px 7px;
+    z-index:       1;
+}
+
+.text3dT
+{
+    font-size:     12px;
+    position:      absolute;
+    padding:       3px;
+    border:        1px solid;
+    border-radius: 7px 7px 7px 0px;
+    z-index:       1;
+}
+
+.soma3d
+{
+    position: absolute;
+    height:   30px;
+    width:    30px;
+    margin:   -15px -15px;
+}
+
+.synapse3d
+{
+    position: absolute;
+    height:   18px;
+    width:    18px;
+    margin:   -9px -9px;
+}
+
+#search_grp
+{
+    margin-top: 1em;
+}
+
+#search_text 
+{
+    width:      100%;
+    text-align: inherit;
+    outline:    none;
+    cursor:     text;
+}
+
+#search_btn
+{
+    float: right;
+}
+
+#search_div
+{
+    overflow:      hidden;
+    padding-right: 3em;
+}
+
+ul
+{
+    list-style-type: none;
+    margin:          0.5em 0 0 0;
+    padding-left:    1em;
+}
+
+li.loaded > span
+{
+    font-style: normal;
+}
+
+li
+{
+    margin:  2px 0 2px 0;
+}
+
+li > span
+{
+    font-style: oblique;
+    cursor:     pointer;
+}
+
+.ui-selected
+{
+    background: #CCC;
+}
+
+li.ui-selecting
+{
+    background: #DDD;
+}
+
+li.ui-selectee
+{
+    cursor: pointer;
+}
+
+#loaded_toolbar, #search_toolbar
+{
+    padding: 4px 0.5em 4px 0.5em;
+    display: inline-block;
+}
+
+#controls .ui-button
+{
+    width: 100%;
+}
+
+footer
+{
+    position:   absolute;
+    width:      100%;
+    height:     16px;
+    bottom:     0;
+    position:   fixed;
+}
+
+.ui-tabs
+{
+    position: absolute;
+    top:      0;
+    left:     0;
+    opacity:  0.7;
+    z-index:  3;
+}
+
+#concept_id
+{
+    font-size: 12px;
+}
+
+#copyright
+{
+    float: right;
+}

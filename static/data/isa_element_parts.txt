@@ -1,0 +1,23 @@
+concept id	name	element file id
+FMA61834	putamen	FJ1776
+FMA61834	putamen	FJ1823
+FMA61906	middle temporal gyrus	FJ1789
+FMA61906	middle temporal gyrus	FJ1790
+FMA61907	inferior temporal gyrus	FJ1746
+FMA61907	inferior temporal gyrus	FJ1747
+FMA62004	medulla oblongata	FJ1769
+FMA62004	medulla oblongata	FJ1831
+FMA62007	thalamus	FJ1782
+FMA62007	thalamus	FJ1827
+FMA62493	hippocampus	FJ1759
+FMA62493	hippocampus	FJ1807
+FMA67325	occipital lobe	FJ1791
+FMA67325	occipital lobe	FJ1792
+FMA67944	cerebellum	FJ1781
+FMA67944	cerebellum	FJ1830
+FMA70701	anterior part of superior temporal gyrus	FJ1837
+FMA70701	anterior part of superior temporal gyrus	FJ1838
+FMA70703	posterior part of superior temporal gyrus	FJ1839
+FMA70703	posterior part of superior temporal gyrus	FJ1840
+FMA241998	cerebral white matter	FJ1758
+FMA241998	cerebral white matter	FJ1806
